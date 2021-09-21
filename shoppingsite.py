@@ -94,7 +94,7 @@ def show_shopping_cart():
         cart_total += melons_cost
 
         melon.quantity = quantity
-        melon.cart_total = cart_total
+        melon.melons_cost = melons_cost
 
         cart_melons.append(melon)
 
